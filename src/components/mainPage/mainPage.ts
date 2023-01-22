@@ -10,7 +10,7 @@ export class MainPage {
   render() {
     return `<div>
 		<h1>Momentum 2.0</h1>
-    ${Settings.render()}
+    ${this.settings.render()}
     
 	</div>`
   }
